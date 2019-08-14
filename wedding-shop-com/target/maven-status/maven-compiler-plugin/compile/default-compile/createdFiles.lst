@@ -1,0 +1,8 @@
+com/weddingshop/pageobject/RegisterPage.class
+com/weddingshop/pageobject/HomePage.class
+com/weddingshop/pageobject/LogInPage.class
+com/weddingshop/pageobject/FilterPage.class
+com/weddingshop/properties/LoadProperties.class
+com/weddingshop/basepage/BasePage.class
+com/weddingshop/utility/Util.class
+com/weddingshop/browserpage/BrowserSelector.class

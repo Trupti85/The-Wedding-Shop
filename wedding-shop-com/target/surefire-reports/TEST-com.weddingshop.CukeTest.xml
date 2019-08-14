@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.weddingshop.CukeTest" time="180.463" tests="107" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/surajbharmal/IdeaProjects/wedding-shop-com/target/test-classes:/Users/surajbharmal/IdeaProjects/wedding-shop-com/target/classes:/Users/surajbharmal/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/surajbharmal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/surajbharmal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/surajbharmal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/surajbharmal/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/surajbharmal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/surajbharmal/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/surajbharmal/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/surajbharmal/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/surajbharmal/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/surajbharmal/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/surajbharmal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/surajbharmal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/surajbharmal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/surajbharmal/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/surajbharmal/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/surajbharmal/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/Users/surajbharmal/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/surajbharmal/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/surajbharmal/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/surajbharmal/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/surajbharmal/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/surajbharmal/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/surajbharmal/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/surajbharmal/IdeaProjects/wedding-shop-com/target/surefire/surefirebooter2272823216469056132.jar /Users/surajbharmal/IdeaProjects/wedding-shop-com/target/surefire 2019-08-14T17-22-07_971-jvmRun1 surefire10047597061274845257tmp surefire_015032490745822816738tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/surajbharmal/IdeaProjects/wedding-shop-com/target/test-classes:/Users/surajbharmal/IdeaProjects/wedding-shop-com/target/classes:/Users/surajbharmal/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/surajbharmal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/surajbharmal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/surajbharmal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/surajbharmal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/surajbharmal/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/surajbharmal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/surajbharmal/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/surajbharmal/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/surajbharmal/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/surajbharmal/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/surajbharmal/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/surajbharmal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/surajbharmal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/surajbharmal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/surajbharmal/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/surajbharmal/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/surajbharmal/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/Users/surajbharmal/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/surajbharmal/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/surajbharmal/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/surajbharmal/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/surajbharmal/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/surajbharmal/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/surajbharmal/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/surajbharmal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-01-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/surajbharmal/IdeaProjects/wedding-shop-com"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/surajbharmal/IdeaProjects/wedding-shop-com/target/surefire/surefirebooter2272823216469056132.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.2+9-LTS"/>
+    <property name="user.name" value="surajbharmal"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/surajbharmal/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/27/4r61vgyn1yjfgnq59n9pnfmw0000gn/T/"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="user.dir" value="/Users/surajbharmal/IdeaProjects/wedding-shop-com"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/surajbharmal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.2+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Given I am on home page" classname="| &lt;£20 |" time="0.004"/>
+  <testcase name="And I click on Products" classname="| &lt;£20 |" time="0"/>
+  <testcase name="And i click on Search" classname="| &lt;£20 |" time="0"/>
+  <testcase name="And I send text in search bar &quot;Candles&quot;" classname="| &lt;£20 |" time="0.001"/>
+  <testcase name="When I select candle &amp; Diffusers" classname="| &lt;£20 |" time="0"/>
+  <testcase name="And I want candles in the &quot;&lt;£20&quot; price range" classname="| &lt;£20 |" time="0"/>
+  <testcase name="Then I should see candles as per filter price" classname="| &lt;£20 |" time="0"/>
+  <testcase name="| &lt;£20 |" classname="| &lt;£20 |" time="0.256"/>
+  <testcase name="Given I am on home page" classname="| £20-£39 |" time="0.001"/>
+  <testcase name="And I click on Products" classname="| £20-£39 |" time="0.001"/>
+  <testcase name="And i click on Search" classname="| £20-£39 |" time="0"/>
+  <testcase name="And I send text in search bar &quot;Candles&quot;" classname="| £20-£39 |" time="0"/>
+  <testcase name="When I select candle &amp; Diffusers" classname="| £20-£39 |" time="0"/>
+  <testcase name="And I want candles in the &quot;£20-£39&quot; price range" classname="| £20-£39 |" time="0"/>
+  <testcase name="Then I should see candles as per filter price" classname="| £20-£39 |" time="0"/>
+  <testcase name="| £20-£39 |" classname="| £20-£39 |" time="0.222"/>
+  <testcase name="Given I am on home page" classname="| £40-£49 |" time="0"/>
+  <testcase name="And I click on Products" classname="| £40-£49 |" time="0"/>
+  <testcase name="And i click on Search" classname="| £40-£49 |" time="0"/>
+  <testcase name="And I send text in search bar &quot;Candles&quot;" classname="| £40-£49 |" time="0"/>
+  <testcase name="When I select candle &amp; Diffusers" classname="| £40-£49 |" time="0"/>
+  <testcase name="And I want candles in the &quot;£40-£49&quot; price range" classname="| £40-£49 |" time="0"/>
+  <testcase name="Then I should see candles as per filter price" classname="| £40-£49 |" time="0"/>
+  <testcase name="| £40-£49 |" classname="| £40-£49 |" time="0.271"/>
+  <testcase name="Given I am on home page" classname="| £50-£74 |" time="0.001"/>
+  <testcase name="And I click on Products" classname="| £50-£74 |" time="0"/>
+  <testcase name="And i click on Search" classname="| £50-£74 |" time="0"/>
+  <testcase name="And I send text in search bar &quot;Candles&quot;" classname="| £50-£74 |" time="0"/>
+  <testcase name="When I select candle &amp; Diffusers" classname="| £50-£74 |" time="0"/>
+  <testcase name="And I want candles in the &quot;£50-£74&quot; price range" classname="| £50-£74 |" time="0"/>
+  <testcase name="Then I should see candles as per filter price" classname="| £50-£74 |" time="0"/>
+  <testcase name="| £50-£74 |" classname="| £50-£74 |" time="0.21"/>
+  <testcase name="Given I am on home page" classname="| £75-149 |" time="0"/>
+  <testcase name="And I click on Products" classname="| £75-149 |" time="0"/>
+  <testcase name="And i click on Search" classname="| £75-149 |" time="0"/>
+  <testcase name="And I send text in search bar &quot;Candles&quot;" classname="| £75-149 |" time="0"/>
+  <testcase name="When I select candle &amp; Diffusers" classname="| £75-149 |" time="0"/>
+  <testcase name="And I want candles in the &quot;£75-149&quot; price range" classname="| £75-149 |" time="0"/>
+  <testcase name="Then I should see candles as per filter price" classname="| £75-149 |" time="0"/>
+  <testcase name="| £75-149 |" classname="| £75-149 |" time="0.202"/>
+  <testcase name="Given I am on home page" classname="| £150+ |" time="0"/>
+  <testcase name="And I click on Products" classname="| £150+ |" time="0"/>
+  <testcase name="And i click on Search" classname="| £150+ |" time="0"/>
+  <testcase name="And I send text in search bar &quot;Candles&quot;" classname="| £150+ |" time="0"/>
+  <testcase name="When I select candle &amp; Diffusers" classname="| £150+ |" time="0"/>
+  <testcase name="And I want candles in the &quot;£150+&quot; price range" classname="| £150+ |" time="0.001"/>
+  <testcase name="Then I should see candles as per filter price" classname="| £150+ |" time="0"/>
+  <testcase name="| £150+ |" classname="| £150+ |" time="0.204"/>
+  <testcase name="Given I am on home page" classname="| Brands |" time="0"/>
+  <testcase name="When I click On &quot;Brands&quot;" classname="| Brands |" time="0"/>
+  <testcase name="Then I can successfully navigate HomePage" classname="| Brands |" time="0"/>
+  <testcase name="| Brands |" classname="| Brands |" time="0.185"/>
+  <testcase name="Given I am on home page" classname="| Products |" time="0"/>
+  <testcase name="When I click On &quot;Products&quot;" classname="| Products |" time="0"/>
+  <testcase name="Then I can successfully navigate HomePage" classname="| Products |" time="0"/>
+  <testcase name="| Products |" classname="| Products |" time="0.241"/>
+  <testcase name="Given I am on home page" classname="| Funds |" time="0"/>
+  <testcase name="When I click On &quot;Funds&quot;" classname="| Funds |" time="0"/>
+  <testcase name="Then I can successfully navigate HomePage" classname="| Funds |" time="0"/>
+  <testcase name="| Funds |" classname="| Funds |" time="0.178"/>
+  <testcase name="Given I am on home page" classname="| Travel &amp; Experience |" time="0.001"/>
+  <testcase name="When I click On &quot;Travel &amp; Experience&quot;" classname="| Travel &amp; Experience |" time="0"/>
+  <testcase name="Then I can successfully navigate HomePage" classname="| Travel &amp; Experience |" time="0"/>
+  <testcase name="| Travel &amp; Experience |" classname="| Travel &amp; Experience |" time="0.208"/>
+  <testcase name="Given I am on home page" classname="| Showrooms |" time="0.001"/>
+  <testcase name="When I click On &quot;Showrooms&quot;" classname="| Showrooms |" time="0"/>
+  <testcase name="Then I can successfully navigate HomePage" classname="| Showrooms |" time="0"/>
+  <testcase name="| Showrooms |" classname="| Showrooms |" time="0.226"/>
+  <testcase name="Given I am on home page" classname="| Inspiration |" time="0"/>
+  <testcase name="When I click On &quot;Inspiration&quot;" classname="| Inspiration |" time="0"/>
+  <testcase name="Then I can successfully navigate HomePage" classname="| Inspiration |" time="0"/>
+  <testcase name="| Inspiration |" classname="| Inspiration |" time="0.274"/>
+  <testcase name="Given I am on home page" classname="| About |" time="0"/>
+  <testcase name="When I click On &quot;About&quot;" classname="| About |" time="0"/>
+  <testcase name="Then I can successfully navigate HomePage" classname="| About |" time="0"/>
+  <testcase name="| About |" classname="| About |" time="0.207"/>
+  <testcase name="Given I am on Home Page" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="When I click on Create a List tab" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I enter Title &quot;Ms&quot;" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I enter First Name &quot;Trupti&quot;" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I enter Last Name &quot;Patel&quot;" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I click on referral" classname="Scenario: As a customer I can Navigate to registration page" time="0.001"/>
+  <testcase name="And I select &quot;Google or Other Search&quot;" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I enter Partner Title &quot;Mr&quot;" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I enter Partner First Name &quot;Jagdish&quot;" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I enter Partner Last Name &quot;Patel&quot;" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I select country name &quot;United Kingdom&quot;" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I enter Postcode &quot;HA1 1RY&quot;" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I click on my Address" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I enter Contact Number&quot;07727629390&quot;" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I click on date field" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I click on Forward Button" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I click on date" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I enter number of Guests &quot;50&quot;" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I enter email &quot;tp&quot;" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I enter password &quot;wedding1234&quot;" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I enter confirm password &quot;wedding1234&quot;" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="And I click on submit button" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="Then I can Succesfully Register" classname="Scenario: As a customer I can Navigate to registration page" time="0"/>
+  <testcase name="Scenario: As a customer I can Navigate to registration page" classname="Scenario: As a customer I can Navigate to registration page" time="0.178"/>
+  <testcase name="Given I am at Homepage" classname="Scenario: As a customer I can Navigate to LogIn page" time="0"/>
+  <testcase name="When I click On Login Bar" classname="Scenario: As a customer I can Navigate to LogIn page" time="0"/>
+  <testcase name="And I enter Email Address &quot;tp&quot;" classname="Scenario: As a customer I can Navigate to LogIn page" time="0"/>
+  <testcase name="And I enter password to login &quot;wedding1234&quot;" classname="Scenario: As a customer I can Navigate to LogIn page" time="0"/>
+  <testcase name="And I click on submit Button" classname="Scenario: As a customer I can Navigate to LogIn page" time="0"/>
+  <testcase name="Then I can successfully Login" classname="Scenario: As a customer I can Navigate to LogIn page" time="0.001"/>
+  <testcase name="Scenario: As a customer I can Navigate to LogIn page" classname="Scenario: As a customer I can Navigate to LogIn page" time="0.183"/>
+</testsuite>
